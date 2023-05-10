@@ -23,53 +23,53 @@ export default function Recommend() {
     const data: Destination[] = [
         {
           image: Destination1,
-          title: "Singapore",
-          subTitle: "Singapore, officialy thr Republic of Singapore, is a",
+          title: "Singapura",
+          subTitle: "Singapura, oficialmente a República de Singapura, é um país localizado no sudeste da Ásia.",
           cost: "38,800",
-          duration: "Approx 2 night trip",
+          duration: "Aproximadamente 2 dias",
         },
         {
           image: Destination2,
-          title: "Thailand",
-          subTitle: "Thailand is a Southeast Asia country. It's known for",
+          title: "Tailândia",
+          subTitle: "A Tailândia é um país do sudeste asiático conhecido por sua culinária saborosa, praias exóticas e templos budistas magníficos.",
           cost: "54,200",
-          duration: "Approx 2 night trip",
+          duration: "Aproximadamente 2 dias",
         },
         {
           image: Destination3,
           title: "Paris",
-          subTitle: "Paris, France's capital, is a major European city and a",
+          subTitle: "Paris, a capital da França, é uma importante cidade europeia e um centro mundial de arte, moda, cultura e gastronomia.",
           cost: "45,500",
-          duration: "Approx 2 night trip",
+          duration: "Aproximadamente 2 dias",
         },
         {
           image: Destination4,
-          title: "New Zealand",
-          subTitle: "New Zealand is an island country in the",
+          title: "Nova Zelândia",
+          subTitle: "A Nova Zelândia é um país insular localizado no sudoeste do Oceano Pacífico, conhecido por suas paisagens impressionantes, esportes radicais e cultura maori.",
           cost: "24,100",
-          duration: "Approx 1 night trip",
+          duration: "Aproximadamente 2 dias",
         },
         {
           image: Destination5,
           title: "Bora Bora",
-          subTitle: "Bora Bora is a small South Pacific island northwest of",
+          subTitle: "Bora Bora é uma pequena ilha no sudoeste do Pacífico Sul, localizada a noroeste da Polinésia Francesa e conhecida por suas águas cristalinas e resorts de luxo.",
           cost: "95,400",
-          duration: "Approx 2 night 2 day trip",
+          duration: "Aproximadamente 2 dias",
         },
         {
           image: Destination6,
-          title: "London",
-          subTitle: "London, the capital of England and the United",
+          title: "Londres",
+          subTitle: "Londres, a capital da Inglaterra e do Reino Unido, é uma cidade histórica e vibrante, famosa por seus marcos icônicos, museus, teatros, lojas e restaurantes.",
           cost: "38,800",
-          duration: "Approx 3 night 2 day trip",
+          duration: "Aproximadamente 2 dias",
         },
       ];
     
       const packages: string[] = [
-        "The Weekend Break",
-        "The Package Holiday",
-        "The Group Tour",
-        "Long Term Slow Travel",
+        "Curta o Fim de Semana",
+        "Pacote de Feriado",
+        "Turismo em Grupo",
+        "Viagem Longa para Aproveitar",
       ];
     
       const [active, setActive] = useState<number>(1);
@@ -77,7 +77,7 @@ export default function Recommend() {
   return (
     <Section id="recommend">
         <div className="title">
-            <h2>Recommend Destinations</h2>
+            <h2>Destinos Recomendados</h2>
         </div>
         <div className="packages">
             <ul>
@@ -152,7 +152,7 @@ const Section = styled.section`
             display: flex;
             flex-direction: column;
             gap: 0.5rem;
-            background-color: #8338ec14;
+            background-color: #cddee983;
             border-radius: 1rem;
             transition: 0.3s ease-in-out;
             &:hover {

@@ -7,11 +7,11 @@ export default function Footer() {
   return (
     <FooterContainer>
         <span>Copyright &copy; 2023 Badas. All rights reserved</span>
-        <ul className="links">
-            <li><a href="#hero">Hero</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#recommend">Recommend</a></li>
-            <li><a href="#testimonials">Testimonials</a></li>
+        <ul>
+            <li><a href="#hero">Início</a></li>
+            <li><a href="#services">Serviços</a></li>
+            <li><a href="#recommend">Recomendações</a></li>
+            <li><a href="#testimonials">Clientes Satisfeitos</a></li>
         </ul>
         <ul className="social_links">
             <li><BsFacebook /></li>
@@ -25,7 +25,7 @@ export default function Footer() {
 const FooterContainer = styled.footer`
     display: flex;
     justify-content: space-evenly;
-    background-color: #d0d8ff;
+    background-color: #00a0df36;
     padding: 2.5rem;
     border-radius: 0.5rem;
     gap: 2rem;

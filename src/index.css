@@ -10,6 +10,7 @@ html {
 
 body {
     margin : 1rem 2rem;
+    background-color: #9c9c797a;
 }
 
 ::-webkit-scrollbar {

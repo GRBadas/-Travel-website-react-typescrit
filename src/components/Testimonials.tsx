@@ -6,7 +6,7 @@ export default function Testimonials() {
   return (
     <Section id="testimonials">
       <div className="title">
-        <h2>Happy Customers</h2>
+        <h2>Clientes Satisfeitos</h2>
       </div>
       <div className="testimonials">
       <div className="testimonial">
@@ -71,7 +71,7 @@ const Section = styled.section`
         .testimonial {
             padding: 2rem;
             border-radius: 0.5rem;
-            background-color: aliceblue;
+            background-color: #cddee983;
             box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
             transition: 0.3s ease-in-out;
             &:hover {

@@ -1,5 +1,5 @@
 import { styled } from 'styled-components'
-import hero from "../assets/hero.png"
+import hero from "../assets/hero.jpg"
 
 export default function Hero() {
   return (
@@ -9,15 +9,15 @@ export default function Hero() {
             <div>
                 <div className="content">
                     <div className="title">
-                        <h1>TRAVEL TO EXPLORE</h1>
+                        <h1>VIAJE E EXPLORE</h1>
                         <p>
-                            TEXTO TEXTO TEXTOTEXTO TEXTOTEXTO TEXTOTEXTOTEXTO TEXTO TEXTO TEXTOTEXTO TEXTO TEXTO
+                        Viagens surpreendentes, momentos inesquecíveis.
                         </p>
                     </div>
                     <div className="search">
                         <div className="container">
-                            <label htmlFor="">Where you want to go</label>
-                            <input type="text" placeholder='Search your location' />
+                            <label htmlFor="">Escolha seu destino</label>
+                            <input type="text" placeholder='Procurar' />
                         </div>
                         <div className="container">
                             <label htmlFor="">Check-in</label>
@@ -27,7 +27,7 @@ export default function Hero() {
                             <label htmlFor="">Check-out</label>
                             <input type="date" />
                         </div>
-                        <button>Explore now</button>
+                        <button>Explore agora</button>
                     </div>
                 </div>
             </div>
@@ -71,6 +71,7 @@ const Section = styled.section`
                 padding: 0 10vw;
                 margin-top: 0.5rem;
                 font-size: 1.2rem;
+                text-transform: uppercase;
             }
         }
         .search {
@@ -86,7 +87,7 @@ const Section = styled.section`
                 padding: 0 1.5rem;
                 label {
                     font-size: 1.1rem;
-                    color: #03045e;
+                    color: #370057;
                 }
                 input {
                     background-color: transparent;
@@ -110,12 +111,12 @@ const Section = styled.section`
                 border-radius: 0.3rem;
                 border: none;
                 color: white;
-                background-color: #4361ee;
+                background-color: #7300b6;
                 font-size: 0.9rem;
                 text-transform: uppercase;
                 transition: 0.3s ease-in-out;
                 &:hover {
-                    background-color: #023e8a;
+                    background-color: #370057;
                 }
             }
         }

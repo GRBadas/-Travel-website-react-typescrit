@@ -13,21 +13,21 @@ export default function Services() {
     const data: Service[] = [
         {
           icon: service1,
-          title: "Get Best Prices",
+          title: "Obtenha os melhores preços",
           subTitle:
-            "Pay through our application and save thousands and get amazing rewards.",
+            "Pague através do nosso aplicativo e economize milhares de reais e ganhe recompensas incríveis.",
         },
         {
           icon: service3,
-          title: "Flexible Payment",
+          title: "Pagamento Flexível",
           subTitle:
-            " Enjoy the flexible payment through our app and get rewards on every payment.",
+            "Desfrute do pagamento flexível através do nosso aplicativo e ganhe recompensas em cada pagamento.",
         },
         {
           icon: service4,
-          title: "Find The Best Near You",
+          title: "Encontre o melhor perto de você",
           subTitle:
-            "Find the best hotels and places to visit near you in a single click.",
+            "Encontre os melhores hotéis e lugares para visitar perto de você em um único clique.",
         },
       ];
       
@@ -57,8 +57,8 @@ gap: 1rem;
     display: flex;
     flex-direction: column;
     padding: 2rem;
-    background-color: aliceblue;
-    box-shadow: rgba(100,100,111,0.2) 0px 7px 29px 0px;
+    background-color: #cddee983;
+    box-shadow: rgba(105, 100, 111, 0.2) 0px 7px 29px 0px;
     transition: 0.3s ease-in-out;
     &:hover {
         transform: translateX(0.4rem) translateY(-1rem);
